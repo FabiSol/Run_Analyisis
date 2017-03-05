@@ -1,0 +1,31 @@
+sub_tra: The number of the volunteers of the training data volunteers.
+x_train: The number of the activity of the training data volunteers.
+y_train: The measurement of each feature of the training data volunteers.
+
+sub_test: The number of the volunteers of the test data volunteers.
+x_test: The The number of the activity of the test data volunteers
+y_test: The measurement of each feature of the test data volunteers
+
+features:Data set with the information about the variables. (tBodyAcc, tGravityAcc, tBodyAccJerk, etc)
+
+id: The number of the volunteers
+id_act: The number of the activity 
+activity: The activity name
+id_act  activity
+1       WALKING
+2       WALKING_UPSTAIRS
+3       WALKING_DOWNSTAIRS
+4       SITTING
+5       STANDING
+6       LAYING
+
+train: All information about training data, (merge sub_tra, x_train, y_train)
+test:  All information about test data, (merge sub_test, x_test, y_test)
+data: All information about uman Activity Recognition Using Smartphones Dataset (merge train and test)
+
+data2: A subset of data (mean and standard deviation)
+
+tidy data: Data set with the average of each variable for each activity and each subject.
+
+
+
